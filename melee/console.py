@@ -72,7 +72,7 @@ class Console:
             path (str): Path to the directory where your dolphin executable is located.
                 If None, will assume the dolphin is remote and won't try to configure it.
             dolphin_home_path (str): Path to dolphin user directory. Optional.
-            is_dolphin (bool): Is this console a dophin instance, or SLP file?
+            is_dolphin (bool): Is this console a dolphin instance, or SLP file?
             tmp_home_directory (bool): Use a temporary directory for the dolphin User path
                 This is useful so instances don't interfere with each other.
             slippi_address (str): IP address of the Dolphin / Wii to connect to.
